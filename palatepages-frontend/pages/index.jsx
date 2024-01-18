@@ -1,14 +1,14 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import '../styles/Home.module.css'
+import '../styles/globals.css'
+import Layout from '../components/Layout'
 
 export default function Home() {
   return (
     <div>
-      <Head>
+      <Layout>
         <title>Palate Pages</title>
-        <meta name='description' content='Welcome to Palate Pages'/>
-      </Head>
+      </Layout>
     </div>
   )
 }

@@ -39,7 +39,7 @@ const Layout = ({ title, description, keywords, children }) => {
           href='https://www.yourwebsiteurl.com/current-page-url'
         />
       </Head>
-      {children}
+      <div>{children}</div>
     </div>
   )
 }
