@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import '../styles/globals.css'
 import Layout from '../components/Layout'
 
 export default function Home() {
@@ -9,6 +8,7 @@ export default function Home() {
       <Layout>
         <title>Palate Pages</title>
       </Layout>
+      
     </div>
   )
 }

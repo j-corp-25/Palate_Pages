@@ -39,7 +39,7 @@ const Layout = ({ title, description, keywords, children }) => {
           href='https://www.yourwebsiteurl.com/current-page-url'
         />
       </Head>
-      <div>{children}</div>
+      <div className='container mx-auto text-4xl subpixel-antialiased my-20 font-bold'>{children}</div>
     </div>
   )
 }

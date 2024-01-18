@@ -1,8 +1,11 @@
 import React from 'react'
+import Layout from '@/components/Layout'
 
 const RecipesPage = () => {
   return (
-    <div>RecipesPage</div>
+    <Layout>
+      <div>My Recipes</div>
+    </Layout>
   )
 }
 
