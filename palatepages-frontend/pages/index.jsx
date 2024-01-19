@@ -8,7 +8,6 @@ export default function Home() {
       <Layout>
         <title>Palate Pages</title>
       </Layout>
-      
     </div>
   )
 }

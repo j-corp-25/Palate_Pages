@@ -3,9 +3,12 @@ import Layout from '@/components/Layout'
 
 const RecipesPage = () => {
   return (
+    <>
     <Layout>
       <div>My Recipes</div>
     </Layout>
+   
+    </>
   )
 }
 

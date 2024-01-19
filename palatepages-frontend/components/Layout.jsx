@@ -1,6 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
-
+import Header from './Header'
 const Layout = ({ title, description, keywords, children }) => {
   return (
     <div>
@@ -39,7 +39,10 @@ const Layout = ({ title, description, keywords, children }) => {
           href='https://www.yourwebsiteurl.com/current-page-url'
         />
       </Head>
-      <div className='container mx-auto text-4xl subpixel-antialiased my-20 font-bold'>{children}</div>
+      <Header />
+      <div className='bg-gradient-to-t from-attention-gray to-dark-text h-screen'>
+        {children}
+      </div>
     </div>
   )
 }
