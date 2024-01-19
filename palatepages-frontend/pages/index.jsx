@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div>
       <Layout>
-        <title>Palate Pages</title>
+        <h1>Home</h1>
       </Layout>
     </div>
   )
