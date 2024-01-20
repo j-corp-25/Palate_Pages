@@ -37,10 +37,10 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <hr class='my-6 border-gray-200 sm:mx-auto dark:border-gray-900 lg:my-8' />
-        <span class='block text-sm text-gray-500 text-center dark:text-gray-400'>
+        <hr className='my-6 border-gray-200 sm:mx-auto dark:border-gray-900 lg:my-8' />
+        <span className='block text-sm text-gray-500 text-center dark:text-gray-400'>
           Copyright © 2023{' '}
-          <a href='' class='hover:underline'>
+          <a href='' className='hover:underline'>
             Palate Pages
           </a>
         </span>
