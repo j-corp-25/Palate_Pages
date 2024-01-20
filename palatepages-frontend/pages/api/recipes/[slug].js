@@ -1,8 +1,9 @@
 const { recipes } = require('./data.json')
 
 export default function handler(req, res) {
+    const recipe = recipes.filter(ev => ev.slug === req.query.slug)
   if (req.method === 'GET') {
-    res.status(200).json(recipes)
+    res.status(200).json(recipe)
   } else {
     res.setHeader('Allow', ['GET'])
     res.status(405).json({
