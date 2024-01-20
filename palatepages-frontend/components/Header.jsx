@@ -17,8 +17,8 @@ const Header = () => {
           <img className='w-32 ' src='/logo2.svg' alt='logo' />
         </div>
 
-        <div className={`absolute transition-top duration-500 ease-in-out ${isMenuOpen ? 'top-[18%]' : 'nav-links'} md:static md:min-h-fit bg-light-text min-h-[30vh] left-0 w-full flex md:w-auto items-center px-5 top-[-100%]`}>
-          <ul className='flex md:flex-row flex-col md:items-center md:gap-10 gap-10 z-1'>
+        <div className={`absolute transition-top duration-500 ease-in-out ${isMenuOpen ? 'top-[15%]' : 'nav-links'} md:static md:min-h-fit bg-light-text min-h-[30vh] left-0 w-full flex md:w-auto items-center px-5 top-[-100%] z-10`}>
+          <ul className='flex md:flex-row flex-col md:items-center md:gap-10 gap-10 z-20'>
             <li>
               <Link href='/'>
                 <div className='hover:text-main-color'>Home</div>

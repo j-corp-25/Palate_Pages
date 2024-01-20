@@ -2,6 +2,7 @@ import React from 'react'
 import Head from 'next/head'
 import Header from './Header'
 import Footer from './Footer'
+import Show from './Showcase'
 const Layout = ({ title, description, keywords, children }) => {
   return (
     <div>
@@ -41,6 +42,7 @@ const Layout = ({ title, description, keywords, children }) => {
         />
       </Head>
       <Header />
+      <Show/>
       <div className='bg-gradient-to-t from-attention-gray to-dark-text h-screen '>
         {children}
       </div>
