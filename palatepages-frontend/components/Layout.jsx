@@ -45,7 +45,7 @@ const Layout = ({ title, description, keywords, children }) => {
       </Head>
       <Header />
       {router.pathname === '/' && <Showcase />}
-      <div className='bg-gradient-to-t from-attention-gray to-dark-text h-screen '>
+      <div className='bg-gradient-to-t from-attention-gray to-dark-text  container-full mx-auto px-4'>
         {children}
       </div>
       <Footer />

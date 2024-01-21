@@ -6,7 +6,7 @@
         "slug": "crimson-berry-tart",
         "chef": "Chef Emilia Rossi",
         "description": "An elegant tart featuring a medley of red berries and a smooth, sweet custard filling in a flaky pastry crust.",
-        "image": "crimson-berry-tart.jpg"
+        "image": "/test/crimson-berry-tart.jpg"
       },
       {
         "id": "2",
@@ -14,7 +14,7 @@
         "slug": "smokey-maple-bbq-ribs",
         "chef": "Chef Liam O'Brien",
         "description": "Tender pork ribs glazed with a homemade smokey maple BBQ sauce, slow-cooked to perfection.",
-        "image": "smokey-maple-bbq-ribs.jpg"
+        "image": "/test/smokey-maple-bbq-ribs.jpg"
       },
       {
         "id": "3",
@@ -22,7 +22,7 @@
         "slug": "tropical-mango-salad",
         "chef": "Chef Maya Das",
         "description": "A refreshing salad combining ripe mangoes, mixed greens, and a tangy citrus dressing.",
-        "image": "tropical-mango-salad.jpg"
+        "image": "/test/tropical-mango-salad.jpg"
       },
       {
         "id": "4",
@@ -30,7 +30,7 @@
         "slug": "spiced-pumpkin-soup",
         "chef": "Chef Carlos Jimenez",
         "description": "A creamy pumpkin soup infused with autumn spices, served with a dollop of crème fraîche.",
-        "image": "spiced-pumpkin-soup.jpg"
+        "image": "/test/spiced-pumpkin-soup.jpg"
       },
       {
         "id": "5",
@@ -38,7 +38,7 @@
         "slug": "herb-crusted-rack-of-lamb",
         "chef": "Chef Aisha Khan",
         "description": "Juicy rack of lamb coated in a fragrant herb crust, roasted to perfection.",
-        "image": "herb-crusted-rack-of-lamb.jpg"
+        "image": "/test/herb-crusted-rack-of-lamb.jpg"
       },
       {
         "id": "6",
@@ -46,7 +46,7 @@
         "slug": "classic-margherita-pizza",
         "chef": "Chef Giovanni Ricci",
         "description": "A traditional Italian pizza with a simple yet flavorful combination of fresh tomatoes, mozzarella, basil, and olive oil.",
-        "image": "classic-margherita-pizza.jpg"
+        "image": "/test/classic-margherita-pizza.jpg"
       }
     ]
   }
