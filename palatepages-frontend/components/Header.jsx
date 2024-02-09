@@ -17,7 +17,9 @@ const Header = () => {
           <img className='w-32 ' src='/logo2.svg' alt='logo' />
         </div>
 
-        <div className={`absolute transition-top duration-500 ease-in-out ${isMenuOpen ? 'top-[15%]' : 'nav-links'} md:static md:min-h-fit bg-light-text min-h-[30vh] left-0 w-full flex md:w-auto items-center px-5 top-[-100%] z-10`}>
+
+
+        <div className={`absolute transition-top duration-500 ease-in-out ${isMenuOpen ? 'top-[15%]' : ''} md:static md:min-h-fit bg-light-text min-h-[30vh] left-0 w-full flex md:w-auto items-center px-5 top-[-100%] z-10`}>
           <ul className='flex md:flex-row flex-col md:items-center md:gap-10 gap-10 z-20'>
             <li>
               <Link href='/'>
@@ -41,6 +43,9 @@ const Header = () => {
             </li>
           </ul>
         </div>
+
+
+
         <div className='flex items-center gap-6 z-50'>
           <button className='bg-main-color text-light-text px-5 py-2 rounded-full hover:bg-attention-gray hover:text-dark-text font-bold'>
             Sign in
